@@ -23,10 +23,17 @@
         <!-- 站点备案 -->
         <span>
           &amp;
-          <a v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
-            {{ siteIcp }}
+          <a href="https://beian.miit.gov.cn" target="_blank">
+            浙ICP备2025150206号-1
           </a>
         </span>
+        <img src="/src/components/beian.png" height="20">
+        <span>
+          &nbsp;
+          <a href="https://beian.mps.gov.cn/#/query/webSearch?code=33020502001187" rel="noreferrer" target="_blank">浙公网安备33020502001187号
+          </a>
+        </span>
+
       </div>
       <div v-else class="lrc">
         <Transition name="fade" mode="out-in">
